@@ -1,0 +1,78 @@
+
+
+#card{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+}
+#card img{
+    width: 100%;
+}
+#ul{
+    display: flex; 
+    width: 100%;
+    flex-wrap: wrap;
+}
+.divs{
+    width: 40%;
+}
+
+#CardX{
+  width: 25rem;
+  margin: 2%;
+  border-radius: 50px;
+}
+
+#imagg{
+  border-radius: 50px;
+}
+
+#con{
+  background-color: #381919;
+}
+
+#star{
+  margin-left: 45%;
+  margin-bottom: 2%;
+  font-size: 30px;
+  color: rgb(252, 198, 97);
+}
+
+#trash{
+  margin-left: 45%;
+  margin-bottom: 2%;
+  font-size: 30px;
+  color: rgb(255, 75, 75);
+}
+
+.paginationBttns {
+    width: 95%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius:100px;
+    border: 0px solid #c7c7c7;
+    color: #cecece;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #6b6b6b;
+  }
+  
+
+  .paginationActive a {
+    color: white;
+    background-color: #444444;
+  }
+  
+  
